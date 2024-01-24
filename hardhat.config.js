@@ -13,7 +13,6 @@ task("accounts", "Prints the list of accounts", async () => {
 
 const privateKey = process.env.NEXT_PUBLIC_PRIVATE_KEY;
 
-
 module.exports = {
   solidity: "0.8.19",
   defaultNetwork: "polygon",
